@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Intro Section */
+  #intro {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .cover-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .project-info {
+    margin-top: 20px;
+  }
+  
+  .project-info h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .project-info nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .project-info nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .project-info nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-info nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Feature Section */
+  #feature-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 20px;
+    max-width: 300px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add animation to feature images */
+  .feature img {
+    transition: transform 0.3s ease;
+  }
+  
+  .feature img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* About Section */
+  #about-section {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  #about-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  #about-section ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  #about-section ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #about-section ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Video Section */
+  #video-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Intro Section */
+  #intro {
+    background-image: url('img1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ef0a0a;
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  .cover-image {
+    display: none; /* Hide the cover image element */
+  }
+  
+  .project-info h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+  }
+  
+  .project-info p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Header Styles */
+  h1, h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background-color: #333;
+  }
+  
+  /* Other Styles... */
